@@ -1,0 +1,25 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #c0c0c0;
+  width: 25rem;
+  height: 28rem;
+  border: 1px solid #8080ff;
+  padding: 2px;
+  gap: 0.5rem;
+
+}
+
+.card > p{ 
+  font-size: 28px;
+}
+.card > a{ 
+  font-size: 20px;
+}
+.card > img{
+  width: 19rem;
+}

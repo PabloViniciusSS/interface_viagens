@@ -9,6 +9,8 @@
   }
 
 .text{
+  display: flex;
+  flex-direction: column;
   width: clamp(20vh, 40vh, 30vh);
   text-align: justify;
 }
