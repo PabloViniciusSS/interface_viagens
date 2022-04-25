@@ -1,0 +1,15 @@
+.container_quemsomos{
+  display: flex;
+  height: 70vh;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  }
+
+.text{
+  width: clamp(20vh, 40vh, 30vh);
+  text-align: justify;
+}
+  

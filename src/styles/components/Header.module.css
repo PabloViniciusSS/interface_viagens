@@ -1,0 +1,21 @@
+.container_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 10px solid #000000;
+  background: #122A57;
+
+}
+
+.container_header > ul {
+  display: flex;
+  margin: auto;
+  gap: 29px;
+  
+
+}
+
+.container_header > li {
+
+
+}

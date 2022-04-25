@@ -1,0 +1,10 @@
+.container_apresentacao{
+  display: flex;
+  height: 70vh;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  }
+
