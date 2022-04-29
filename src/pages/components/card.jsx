@@ -5,11 +5,15 @@ import Images from "./images";
 
 function Card(props) {
   return (
-    <div className={styles.card}>
-      <img src={props.caminho} descricao={props.descricao} />
-      <p>{props.nome}</p>
-      <a url={props.link}> {props.chamar}</a>
-    </div>
+    <main class={styles.cards}>
+      <section class={styles.cards_section}>
+        <div class={styles.icon}>
+          <img src={props.caminho} descricao={props.descricao} />
+        </div>
+        <p>{props.nome}</p>
+        <a url={props.link}> {props.chamar}</a>
+      </section>
+    </main>
   );
 }
 

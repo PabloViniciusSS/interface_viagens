@@ -1,25 +1,31 @@
-.card{
+.cards >.cards_section {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
   align-items: center;
-  align-content: center;
-  background: #c0c0c0;
-  width: 25rem;
-  height: 28rem;
-  border: 1px solid #8080ff;
-  padding: 2px;
-  gap: 0.5rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  height: 30vh;
+  width: 30vh;
+  max-height: 468px;
+  margin-left: 32px;
+  background: var(--button-color);
+  box-shadow: 10px 20px 10px -10px #000;
 
 }
 
-.card > p{ 
-  font-size: 28px;
+.cards_section > p{
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+
 }
-.card > a{ 
-  font-size: 20px;
+.cards > main{
+  display: flex;
+  padding: 32px;
+  
 }
-.card > img{
-  width: 19rem;
+.icon{
+  width: 10rem;
+
 }

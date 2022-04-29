@@ -6,6 +6,8 @@
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  color: var(--letter);
+
   }
 
 .text{
@@ -14,4 +16,6 @@
   width: clamp(20vh, 40vh, 30vh);
   text-align: justify;
 }
-  
+
+.text > p{
+}

@@ -2,20 +2,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 10px solid #000000;
-  background: #122A57;
-
+  background: var(--button-color);
+  color: #fff;
 }
 
 .container_header > ul {
   display: flex;
   margin: auto;
   gap: 29px;
+
   
 
 }
 
-.container_header > li {
+.container_header > li > a {
+  color: var(--letter-secundary);
+  color: #fff;
 
 
 }

@@ -1,9 +1,16 @@
+:root{
+  --primary: #F2F2F2;
+  --secundary: #ACC3F2;
+  --button-color: #F27649;
+  --oi: #F28749;
+  --letter:#77A0F2;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #c0c0c0;
-    background: none;
+  background-color: var(--primary);
+background: none;
    
 }
 
@@ -34,7 +41,8 @@ button {
 a {
   text-decoration: none;
   font-size:max(15px, 20px);
-  color: none;
+  background-color: none;
+
 
 }
 li{
