@@ -4,7 +4,6 @@ import styles from "../../../styles/components/main/Apresentacao.module.css";
 
 import React, { Component } from "react";
 import Button from "../button";
-import Images from "../images";
 
 export default class Apresentacao extends Component {
   render() {
@@ -16,7 +15,8 @@ export default class Apresentacao extends Component {
           <Button link='/servicos' name='Saiba mais!'></Button>
         </div>
         <div>
-          <Images caminho='../images/main.png' />
+        <img src='../images/main.png' alt='balcão de atendimento' />
+
         </div>
       </div>
     );

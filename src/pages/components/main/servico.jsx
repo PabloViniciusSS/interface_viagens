@@ -3,13 +3,12 @@
 import React, { Component } from "react";
 import styles from "../../../styles/components/main/Servico.module.css";
 import Card from "../card";
-import Images from "../images";
 
 export default class Servico extends Component {
   render() {
     return (
       <div className={styles.container_service}>
-          <h2>Serviços</h2>
+          <h3>Serviços</h3>
         <div className={styles.container_itens}>
             <Card
               caminho='../images/icon-2.png'

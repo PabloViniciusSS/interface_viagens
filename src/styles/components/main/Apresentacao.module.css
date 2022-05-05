@@ -9,3 +9,10 @@
 
   }
 
+
+  .container_apresentacao > img{
+    width: 100%;
+    min-width: 35%;
+    height: 100%;
+    min-height: 35%;
+  }

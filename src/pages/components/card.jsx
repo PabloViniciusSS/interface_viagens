@@ -1,7 +1,6 @@
 /** @format */
 
 import styles from "../../styles/components/Card.module.css";
-import Images from "./images";
 
 function Card(props) {
   return (

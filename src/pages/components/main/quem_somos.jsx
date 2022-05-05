@@ -3,8 +3,6 @@
 import styles from "../../../styles/components/main/QuemSomos.module.css";
 
 import React, { Component } from "react";
-import Button from "../button";
-import Images from "../images";
 
 export default class QuemSomos extends Component {
   render() {
