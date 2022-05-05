@@ -20,7 +20,7 @@ h1{
 }
 
 p{
-  font-size: max(20px, 28px);
+  font-size: clamp(24px, 50%, 28px);
   background: none;
 }
 
@@ -40,8 +40,9 @@ button {
 }
 a {
   text-decoration: none;
-  font-size:max(15px, 20px);
-  background-color: none;
+  font-size: clamp(16px, 50%, 20px);
+  
+  color: none;
 
 
 }

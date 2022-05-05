@@ -1,21 +1,21 @@
 .container_quemsomos{
   display: flex;
-  height: 70vh;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  align-content: center;
-  color: var(--letter);
-
-  }
-
-.text{
-  display: flex;
   flex-direction: column;
-  width: clamp(20vh, 40vh, 30vh);
+  
+  }
+.container_conteudo{
+  display: flex;
+  align-items: center;
   text-align: justify;
+
 }
 
-.text > p{
+
+.container_conteudo > img {
+  width: 100%;
+  min-width: 35%;
+  height: 100%;
+  min-height: 35%;
 }

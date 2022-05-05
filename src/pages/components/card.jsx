@@ -5,18 +5,26 @@ import Images from "./images";
 
 function Card(props) {
   return (
-    <main class={styles.cards}>
-      <section>
-        <div class={styles.icon}>
-          <img src={props.caminho} descricao={props.descricao} />
+    <div className={styles.card_container}>
+      <div className={styles.image_container}>
+        <img src={props.caminho} descricao={props.descricao} />
+      </div>
+
+      <div className={styles.card_content}>
+        <div className={styles.card_title}>
+          <p>{props.nome}</p>
         </div>
-        <p>{props.nome}</p>
-        <div class={styles.link}>
-          <a url={props.link}> {props.chamar}</a>
+        <div className={styles.card_body}>
+              <a href={props.link}> {props.chamar}</a>
         </div>
-      </section>
-    </main>
+      </div>
+
+      
+      
+
+    </div>  
   );
 }
 
 export default Card;
+

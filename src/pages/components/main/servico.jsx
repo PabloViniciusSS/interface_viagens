@@ -9,20 +9,15 @@ export default class Servico extends Component {
   render() {
     return (
       <div className={styles.container_service}>
-        <div>
           <h2>Serviços</h2>
-        </div>
         <div className={styles.container_itens}>
-          <div>
             <Card
               caminho='../images/icon-2.png'
               descricao='hospedagens'
               nome='Hospedagens'
-              link='#'
+              link='/oi'
               chamar='Comprar Agora'
             />
-          </div>
-          <div>
             <Card
               caminho='../images/icon-1.png'
               descricao='pacote de viagens'
@@ -30,8 +25,6 @@ export default class Servico extends Component {
               link='#'
               chamar='Comprar Agora'
             />
-          </div>
-          <div>
             <Card
               caminho='../images/icon-3.png'
               descricao='roteiros personalizados'
@@ -39,7 +32,6 @@ export default class Servico extends Component {
               link='#'
               chamar='Comprar Agora'
             />
-          </div>
         </div>
       </div>
     );

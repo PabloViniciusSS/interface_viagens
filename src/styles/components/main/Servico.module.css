@@ -1,21 +1,14 @@
 .container_service{
   display: flex;
-  height: 70vh;
-  min-width: 50vh;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  align-content: center;
-  flex-wrap: nowrap;
+  flex-direction: column;
   
 }
 .container_itens{
   display: flex;
-  gap: 20px;
-  position: relative;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: 0;
-  margin:auto;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
 
 }
