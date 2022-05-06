@@ -4,9 +4,12 @@ import styles from "../../styles/components/CardPlans.module.css";
 export default function Card_Plans(props) {
   return (
     <div className={styles.plans_container}>
-            <h3>{props.titulo}</h3>
-        <div className={styles.list_container}>
-            <div className={styles.services}>
+        <div className={styles.title_container}>
+             <h5>{props.titulo}</h5>
+        </div>
+        <div className={styles.conteudo_container}>
+        
+        <div className={styles.services}>
                 <p>Suporte 24h</p> 
                 {props.suporte} 
             </div>
@@ -30,8 +33,10 @@ export default function Card_Plans(props) {
                 <p>Área Vip</p>
                 {props.vip}
             </div>
+        </div>
+        <div className={styles.plans_footer}>
+            <button><a href={props.link}>Saiba Mais</a></button>
             </div>
-            <a href={props.link}>Saiba Mais</a>
           </div>
   )
 }

@@ -5,6 +5,7 @@
   flex-direction: column;
   gap: 4rem;
   
+  
 }
 .container_itens{
   display: flex;
@@ -12,4 +13,6 @@
   align-items: center;
   gap: 10rem;
 
+
 }
+

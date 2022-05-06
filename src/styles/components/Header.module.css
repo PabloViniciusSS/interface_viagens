@@ -1,8 +1,8 @@
+
 .container_header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: var(--button-color);
   color: #fff;
 }
 
