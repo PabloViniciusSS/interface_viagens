@@ -15,8 +15,7 @@ export default class Apresentacao extends Component {
           <Button link='/servicos' name='Saiba mais!'></Button>
         </div>
         <div>
-        <img src='../images/main.png' alt='balcão de atendimento' />
-
+          <img src='../images/main.png' alt='balcão de atendimento' />
         </div>
       </div>
     );

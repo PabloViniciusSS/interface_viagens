@@ -58,7 +58,7 @@ button {
 }
 a {
   text-decoration: none;
-  font-size: clamp(16px, 50%, 20px);
+  font-size: clamp(20px, 24px, 26px);
   
   color: none;
 

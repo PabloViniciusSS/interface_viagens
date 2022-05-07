@@ -8,10 +8,14 @@ function Layout({ children }) {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <Header  />
+        <Header />
       </div>
-      <main>{children}</main>
-      <Footer />
+      <div className={styles.main}>
+        <main>{children}</main>
+      </div>
+      <div className={styles.footer}>
+        <Footer />
+      </div>
     </div>
   );
 }

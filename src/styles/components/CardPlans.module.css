@@ -2,9 +2,9 @@
     display: grid;
     grid-template-rows: 20% 60% 20%;
     background-color: #ffff;
-    width: auto;
-    height:auto;
-    border: 1px solid var(--button);
+    width: 20rem;
+    height: 30rem;
+    border:1px solid var(--button);
 
 }
 
@@ -15,6 +15,7 @@
     background-color: var(--button);
     font-size: clamp(24px, 30px, 26px);
     color: var(--letter);
+
     
 }
 
@@ -22,25 +23,32 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-        border-radius: 2rem;
-
+    border-radius: 2rem;
+    line-height: 2.3rem;
 }
 
 .services{
     display: flex;
     flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    border-bottom: 1px solid rgb(75, 71, 71);
+
+
+
  }
 
  
 .services > p{
    font-size: 20px;
+
  }
 
 .plans_footer{
     display: flex;
     justify-content:  center;
     align-items: flex-end;
-    padding: 1rem 0 0.1rem 0;
+    padding:3rem 0 0.1rem 0;
 }
 
 .plans_footer > button{

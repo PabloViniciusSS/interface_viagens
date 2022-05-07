@@ -6,3 +6,9 @@
 .header{
     background: var(--button);
 }
+.main{
+    border: 1px solid #000
+}
+.footer{
+    border: 1px solid #000
+}
