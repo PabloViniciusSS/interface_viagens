@@ -13,17 +13,18 @@
 .navbar{
   display: flex;
   flex-direction: row;
+  justify-items: center;
   align-items: center;
   gap: 2rem;
+  margin-right: 5rem;
   
 
  
 }
 .button{
-  width: 10rem;
-  height: 100%;
-  border: none;
+  text-align: center;
  
+  
 
 }
 

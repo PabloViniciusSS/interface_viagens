@@ -12,15 +12,15 @@ export default class Header extends Component {
           <h1>FlexTurismo</h1>
         </div>
         <div className={styles.navbar}>
-          <button className={styles.button}>
+         <li className={styles.button}>
             <a href='/quem_somos'>Quem Somos</a>
-          </button>
-          <button className={styles.button}>
+        </li> 
+        <li className={styles.button}>
             <a href='/serviços'>Serviços</a>
-          </button>
-          <button className={styles.button}>
+        </li> 
+        <li className={styles.button}>
             <a href='/Planos'>Planos</a>
-          </button>
+        </li> 
         </div>
       </div>
     );
