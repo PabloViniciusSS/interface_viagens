@@ -13,7 +13,7 @@ export default class Footer extends Component {
         <footer className={styles.container}>
           <p><FaRegCopyright /> 2022 CSS Flexbox</p>
           <p>Desenvolvido por: Pablo Vinícius Sousa Silva</p>
-            <p><BsWhatsapp /> (62) 99329-6503</p>
+            <p><BsWhatsapp /> 62 99329-6503</p>
         </footer>
     );
   }
