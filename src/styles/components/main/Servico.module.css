@@ -4,7 +4,8 @@
   align-items: center;
   flex-direction: column;
   gap: 4rem;
-  
+  background: var(--button);
+
   
 }
 .container_itens{
